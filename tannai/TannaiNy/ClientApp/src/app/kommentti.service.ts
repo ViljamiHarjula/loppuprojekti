@@ -8,7 +8,7 @@ import { Kommentti } from './kommentti';
 import { MessageService } from './message.service';
 
 
-import { KOMMENTIT } from './mock-kommentit';
+//import { KOMMENTIT } from './mock-kommentit';
 
 
 const httpOptions = {

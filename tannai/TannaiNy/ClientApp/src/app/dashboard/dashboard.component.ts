@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Kommentti } from '../kommentti';
 import { KommentitService } from '../kommentti.service';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @Component({
   selector: 'app-dashboard',

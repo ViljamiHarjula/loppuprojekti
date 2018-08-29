@@ -35,7 +35,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { EhdotusSearchComponent } from './ehdotus-search/ehdotus-search.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -59,10 +59,12 @@ import { EhdotusSearchComponent } from './ehdotus-search/ehdotus-search.componen
     MessagesComponent,
     EhdotusSearchComponent,
 
+
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     FormsModule,
+    NgbModule.forRoot(),
     HttpModule,
     AppRoutingModule,
     HttpClientModule,
@@ -70,7 +72,7 @@ import { EhdotusSearchComponent } from './ehdotus-search/ehdotus-search.componen
       InMemoryDataService, { dataEncapsulation: false }
     ),
     AgmCoreModule.forRoot({
-      apiKey: 'kikkeli'
+      apiKey: 'Kikkeli'
     }),
   //  RouterModule.forRoot([
   //    { path: '', component: HomeComponent, pathMatch: 'full' },

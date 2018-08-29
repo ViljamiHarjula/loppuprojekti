@@ -31,6 +31,13 @@
     <None Remove="ClientApp\src\app\in-memory-data.service.ts" />
     <None Remove="ClientApp\src\app\kommentti.ts" />
     <None Remove="ClientApp\src\app\mock-kommentit.ts" />
+    <None Remove="ClientApp\src\app\nav-menu\tannainy_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ClientApp\src\app\nav-menu\tannainy_logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

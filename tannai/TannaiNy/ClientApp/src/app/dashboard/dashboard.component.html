@@ -1,12 +1,107 @@
-<h3>Top Ehdotukset</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let kommentti of kommentit" class="col-1-4"
-     routerLink="/detail/{{kommentti.id}}">
-   
-    <div class="module hero">
-      <h4>{{kommentti.name}}</h4>
-    </div>
-  </a>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
 
-<app-ehdotus-search></app-ehdotus-search>
+
+
+</head>
+<h3>Top Ehdotukset</h3>
+
+
+</html>
+<body>
+
+
+
+  <div class="row">
+
+    <!-- Listing Item -->
+    <div class="col-lg-12 col-md-12">
+      <div class="listing-item-container list-layout">
+        <a href="listings-single-page.html" class="listing-item">
+
+          <!-- Image -->
+          <!-- Content -->
+          <div class="listing-item-content">
+            <div class="listing-badge now-open">Now Open</div>
+
+            <div class="listing-item-inner">
+              <h3>Kiipeilyteline <i class="verified-icon"></i></h3>
+              <span>Hämeentie 32, Helsinki</span>
+
+              <div class="star-rating" data-rating="5.0">
+                <div class="rating-counter">(15 Tykkäystä)</div>
+                <div class="rating-counter">(4 Kommenttia)</div>
+                <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+              </div>
+            </div>
+          </div>
+
+          <span class="like-icon"></span>
+        </a>
+      </div>
+     
+    </div>
+  </div>
+
+  <!-- Listing Item / End -->
+  <!-- Listing Item -->
+  <div class="col-lg-12 col-md-12">
+    <div class="listing-item-container list-layout">
+      <a href="listings-single-page.html" class="listing-item">
+
+        <!-- Image -->
+        <!-- Content -->
+        <div class="listing-item-content">
+
+          <div class="listing-item-inner">
+            <h3>McDonald's</h3>
+            <span>Mannerheimintie 32, Helsinki</span>
+            <div class="star-rating" data-rating="5.0">
+              <div class="rating-counter">(7 Tykkäystä)</div>
+              <div class="rating-counter">(4 Kommenttia)</div>
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+          </div>
+
+          <span class="like-icon"></span>
+
+          <div class="listing-item-details">200 metriä lähimpään mäkkäriin on liikaa. Haluan mäkkärin lähemmäksi muuttamatta.</div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Listing Item / End -->
+  <!-- Listing Item -->
+  <div class="col-lg-12 col-md-12">
+    <div class="listing-item-container list-layout">
+      <a href="listings-single-page.html" class="listing-item">
+
+        <!-- Image -->
+        <!-- Content -->
+        <div class="listing-item-content">
+
+          <div class="listing-item-inner">
+            <h3>Konserttilava</h3>
+            <span>Töölönlahdenpuisto, Helsinki</span>
+            <div class="star-rating" data-rating="2.0">
+              <div class="rating-counter">(1 Tykkäystä)</div>
+              <div class="rating-counter">(0 Kommenttia)</div>
+              <span class="star"></span><span class="star"></span><span class="star empty"></span><span class="star empty"></span><span class="star empty"></span>
+            </div>
+          </div>
+
+          <span class="like-icon"></span>
+
+          <div class="listing-item-details">Tarvitsemme julkisen konserttilavan puistoon, jossa voisimme järjestää erilaisia tapahtumia.</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+
+</body>
+
